@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/meng-mockup/static/css/main.ab7136cd.chunk.css",
+    "main.js": "/meng-mockup/static/js/main.f65c5bb7.chunk.js",
+    "main.js.map": "/meng-mockup/static/js/main.f65c5bb7.chunk.js.map",
+    "runtime-main.js": "/meng-mockup/static/js/runtime-main.90d6acb4.js",
+    "runtime-main.js.map": "/meng-mockup/static/js/runtime-main.90d6acb4.js.map",
+    "static/js/2.1746e479.chunk.js": "/meng-mockup/static/js/2.1746e479.chunk.js",
+    "static/js/2.1746e479.chunk.js.map": "/meng-mockup/static/js/2.1746e479.chunk.js.map",
+    "static/js/3.abd3a5ed.chunk.js": "/meng-mockup/static/js/3.abd3a5ed.chunk.js",
+    "static/js/3.abd3a5ed.chunk.js.map": "/meng-mockup/static/js/3.abd3a5ed.chunk.js.map",
+    "index.html": "/meng-mockup/index.html",
+    "static/css/main.ab7136cd.chunk.css.map": "/meng-mockup/static/css/main.ab7136cd.chunk.css.map",
+    "static/js/2.1746e479.chunk.js.LICENSE.txt": "/meng-mockup/static/js/2.1746e479.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/meng-mockup/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.90d6acb4.js",
+    "static/js/2.1746e479.chunk.js",
+    "static/css/main.ab7136cd.chunk.css",
+    "static/js/main.f65c5bb7.chunk.js"
+  ]
+}
