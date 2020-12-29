@@ -1,0 +1,131 @@
+@import "variables.scss";
+
+.App {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  font-size: 14px;
+  color: $fontColor;
+
+  * {
+    box-sizing: border-box;
+  }
+
+  .GlobalBarWrapper {
+    z-index: 1;
+  }
+  .GlobalBarWrapper + div {
+    display: flex;
+    flex-grow: 1;
+  }
+}
+
+button {
+  border: 0;
+  color: #ffffff;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 600;
+  text-align: center;
+  padding: 6px 16px;
+  border-radius: 4px;
+  box-shadow: 0px 2px 4px #cccccc;
+  margin: 5px;
+  cursor: pointer;
+
+  &.PrimaryButton {
+    background-color: $primaryColor;
+    &:hover {
+      background-color: $secondaryColor;
+    }
+  }
+
+  &.SecondaryButton {
+    color: #7d7d7d;
+    background-color: #ffffff;
+
+    &:hover {
+      background-color: $shade1BackgroundColor;
+    }
+  }
+}
+
+.Spacer {
+  flex-grow: 1;
+}
+
+.Tile {
+  display: flex;
+  flex-direction: column;
+
+  .TileHeader {
+    display: flex;
+    padding: 15px;
+    background-color: #cce1f5;
+    font-weight: 500;
+    border-radius: 4px 4px 0 0;
+    border: 1px solid $borderColor;
+    border-bottom-width: 0;
+  }
+  .TileContent {
+    padding: 20px;
+    border: 1px solid $borderColor;
+    border-top-width: 0;
+    border-radius: 0 0 4px 4px;
+  }
+}
+
+.DropZone {
+  border: 1.5px dashed #dadada;
+  text-align: center;
+  padding: 15px;
+  font-weight: bold;
+  color: #dadada;
+}
+
+input {
+  border-radius: 4px;
+  padding: 3px 8px;
+  border: 1px solid $borderColor;
+}
+
+textarea {
+  border-radius: 4px;
+  border: 1px solid $borderColor;
+}
+
+dl {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+
+  dt {
+    width: 100%;
+
+    > * {
+      width: 100%;
+    }
+  }
+
+  dd {
+    > * {
+      width: 100%;
+    }
+    width: 100%;
+    margin: 4px 0 15px 0;
+
+    &:last-child {
+      margin: 4px 0 0 0;
+    }
+  }
+}
+
+select {
+  padding: 3px 8px;
+  border-radius: 4px;
+  border: 1px solid $borderColor;
+
+  option {
+    padding: 4px;
+  }
+}

@@ -1,23 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from './Connectwise Logo.svg';
+import './App.scss';
+import GlobalBar from './GlobalBar/GlobalBar';
+import MasterPanel from './MasterPanel/MasterPanel';
+import MainPanel from './MainPanel/MainPanel';
+import Toolbar from './Toolbar/Toolbar';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <GlobalBar></GlobalBar>
+      <div>
+        <MasterPanel></MasterPanel>
+        <MainPanel></MainPanel>
+        <Toolbar></Toolbar>
+      </div>
     </div>
   );
 }

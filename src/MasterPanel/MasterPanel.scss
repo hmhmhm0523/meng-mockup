@@ -1,0 +1,55 @@
+.MasterPanelWrapper {
+    background-color: #333333;
+    width: 250px;
+    color: #ffffff;
+    // z-index: -1;
+
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 20px;
+
+    > * {
+        padding: 8px;
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+
+        &.Selected {
+            background-color: #026ccf;
+        }
+
+        div {
+            width: 20px;
+            height: 20px;
+            margin: 5px;
+            background-repeat: no-repeat;
+            background-size: contain;
+            filter: brightness(10);
+            &.BackarrowButton {
+                background-image: url("../CW icons/⭕ Action/Back.svg");
+            }
+            &.PinButton {
+                background-image: url("../CW icons/⭕ Action/Pin.svg");
+                float: right;
+            }
+            &.WorkspaceIcon {
+                background-image: url("../CW icons/⭕ Application/Workspace.svg");
+            }
+            &.AdminIcon {
+                background-image: url("../CW icons/⭕ Application/Members.svg");
+            }
+            &.PreferencesIcon {
+                background-image: url("../CW icons/⭕ Application/Settings.svg");
+            }
+            &.PoliciesIcon {
+                background-image: url("../CW icons/⭕ Application/Effective Policy.svg");
+            }
+            &.CompanyIcon {
+                background-image: url("../CW icons/⭕ Application/Companies.svg");
+            }
+        }
+    }
+}

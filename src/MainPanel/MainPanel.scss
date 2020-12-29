@@ -1,0 +1,40 @@
+.MainPanelWrapper {
+    flex-grow: 1;
+
+    .ContentPanel {
+        margin: 15px 20px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 2fr;
+        grid-template-rows: auto 1fr;
+        grid-template-areas:
+            "name description policies"
+            "packageBuilder packageBuilder policies";
+
+        column-gap: 40px;
+        row-gap: 20px;
+
+        dt::after {
+            content: "*";
+            color: #cc3232;
+        }
+
+        .Name {
+            grid-area: name;
+        }
+
+        .Description {
+            grid-area: description;
+            textarea {
+                height: 153px;
+            }
+        }
+
+        .PackageBuilder {
+            grid-area: packageBuilder;
+        }
+
+        .Policies {
+            grid-area: policies;
+        }
+    }
+}

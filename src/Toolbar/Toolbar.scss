@@ -1,0 +1,12 @@
+.ToolbarWrapper {
+    width: 40px;
+    border: 1px solid #ebebeb;
+    background-color: #f7f7f7;
+
+    .FilterIcon{
+        width: 20px;
+        height: 20px;
+        background-image: url('../CW icons/⭕ Action/Filter.svg');
+        margin: 10px;
+    }
+}
