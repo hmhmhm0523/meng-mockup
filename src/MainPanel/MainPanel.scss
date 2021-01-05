@@ -7,7 +7,7 @@
         grid-template-columns: 1fr 1fr 2fr;
         grid-template-rows: auto 1fr;
         grid-template-areas:
-            "name description policies"
+            "nameServiceMarket description policies"
             "packageBuilder packageBuilder policies";
 
         column-gap: 40px;
@@ -18,8 +18,8 @@
             color: #cc3232;
         }
 
-        .Name {
-            grid-area: name;
+        .NameServiceMarket {
+            grid-area: nameServiceMarket;
         }
 
         .Description {
@@ -36,5 +36,7 @@
         .Policies {
             grid-area: policies;
         }
+
+        
     }
 }
