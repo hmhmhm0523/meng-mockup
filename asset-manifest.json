@@ -1,27 +1,28 @@
 {
   "files": {
-    "main.css": "/meng-mockup/static/css/main.6f2ec22a.chunk.css",
-    "main.js": "/meng-mockup/static/js/main.48dec53f.chunk.js",
-    "main.js.map": "/meng-mockup/static/js/main.48dec53f.chunk.js.map",
-    "runtime-main.js": "/meng-mockup/static/js/runtime-main.f2cbe09b.js",
-    "runtime-main.js.map": "/meng-mockup/static/js/runtime-main.f2cbe09b.js.map",
-    "static/js/2.6d801c70.chunk.js": "/meng-mockup/static/js/2.6d801c70.chunk.js",
-    "static/js/2.6d801c70.chunk.js.map": "/meng-mockup/static/js/2.6d801c70.chunk.js.map",
-    "static/js/3.ce5a6bf4.chunk.js": "/meng-mockup/static/js/3.ce5a6bf4.chunk.js",
-    "static/js/3.ce5a6bf4.chunk.js.map": "/meng-mockup/static/js/3.ce5a6bf4.chunk.js.map",
+    "main.css": "/meng-mockup/static/css/main.fc8ae5ab.chunk.css",
+    "main.js": "/meng-mockup/static/js/main.5bae5f83.chunk.js",
+    "main.js.map": "/meng-mockup/static/js/main.5bae5f83.chunk.js.map",
+    "runtime-main.js": "/meng-mockup/static/js/runtime-main.7bf52ad1.js",
+    "runtime-main.js.map": "/meng-mockup/static/js/runtime-main.7bf52ad1.js.map",
+    "static/js/2.bba76890.chunk.js": "/meng-mockup/static/js/2.bba76890.chunk.js",
+    "static/js/2.bba76890.chunk.js.map": "/meng-mockup/static/js/2.bba76890.chunk.js.map",
+    "static/js/3.c924b191.chunk.js": "/meng-mockup/static/js/3.c924b191.chunk.js",
+    "static/js/3.c924b191.chunk.js.map": "/meng-mockup/static/js/3.c924b191.chunk.js.map",
     "index.html": "/meng-mockup/index.html",
-    "static/css/main.6f2ec22a.chunk.css.map": "/meng-mockup/static/css/main.6f2ec22a.chunk.css.map",
-    "static/js/2.6d801c70.chunk.js.LICENSE.txt": "/meng-mockup/static/js/2.6d801c70.chunk.js.LICENSE.txt",
+    "static/css/main.fc8ae5ab.chunk.css.map": "/meng-mockup/static/css/main.fc8ae5ab.chunk.css.map",
+    "static/js/2.bba76890.chunk.js.LICENSE.txt": "/meng-mockup/static/js/2.bba76890.chunk.js.LICENSE.txt",
     "static/media/MasterPanel.scss": "/meng-mockup/static/media/Workspace.a779442a.svg",
+    "static/media/App.scss": "/meng-mockup/static/media/Projects.36814627.svg",
     "static/media/GlobalBar.scss": "/meng-mockup/static/media/Help.eab580db.svg",
     "static/media/Connectwise Logo.d3a7a8ab.svg": "/meng-mockup/static/media/Connectwise Logo.d3a7a8ab.svg",
     "static/media/Toolbar.scss": "/meng-mockup/static/media/Filter.59398592.svg",
     "static/media/SearchBox.scss": "/meng-mockup/static/media/Search.20c0b175.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.f2cbe09b.js",
-    "static/js/2.6d801c70.chunk.js",
-    "static/css/main.6f2ec22a.chunk.css",
-    "static/js/main.48dec53f.chunk.js"
+    "static/js/runtime-main.7bf52ad1.js",
+    "static/js/2.bba76890.chunk.js",
+    "static/css/main.fc8ae5ab.chunk.css",
+    "static/js/main.5bae5f83.chunk.js"
   ]
 }
